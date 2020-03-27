@@ -24,3 +24,41 @@
   @import '_post/content';
   @import '_post/footer';
 }
+// post toc
+.toc-container {
+    padding: 5px 10px;
+    position: fixed;
+    top: 25%;
+    left: 85%;
+    width: 200px;
+    border-radius: 8px;
+    background: #f6f6f6;
+    .toc {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 1rem;
+        line-height: 2;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        ol {
+            margin-left: -1.5rem;
+        }
+        li {
+            width: 99.9%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin: 0;
+            list-style: none;
+        }
+        a {
+            color: $global-font-color;
+            &:hover {
+                color: $theme-color;
+            }
+        }
+    }
+}
+
