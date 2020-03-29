@@ -17,7 +17,7 @@
 
 
     {% if is_home() %}
-        <div class="post-excerpt post-content">
+        <div class="post-excerpt">
             {% set excerpt = "" %}
             {% if post.description %}
               {% set excerpt = post.description %}

@@ -1,6 +1,9 @@
 <div class="site-header-inner">
     <h1 class="site-title">
-        <a href="{{ url_for('.') }}" class="logo"><img border="0" src="{{ config.logo }}" />{{ config.title }}</a>
+        <a href="{{ url_for('.') }}" class="logo">
+	<img width=40 height=40 src="{{ config.logo }}"/>
+	{{ config.title }}
+	</a>
     </h1>
 
     <nav id="nav-top">

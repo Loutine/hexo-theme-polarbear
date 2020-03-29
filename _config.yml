@@ -4,7 +4,6 @@
 
 # Site creation time
 since: 2020
-
 # Custom your favicon.ico in `site/source`
 favicon: /favicon.ico
 # Set feed link (false | default | your feed link)
@@ -18,6 +17,7 @@ rss: default
 menu:
   Archives: /archives
   About: /about
+  RSS: /atom.xml
 
 # ===========================================
 # Widget Settings
@@ -43,7 +43,7 @@ widget_custom:
 # color: Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
 theme:
   color: Default
-  fancybox: false
+  fancybox: true
 
 # ===========================================
 # Third Party Services Settings

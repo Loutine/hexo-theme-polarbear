@@ -13,7 +13,9 @@
       margin-top: 1.2em;
     }
   }
-
+  .excerpt{
+	  display: none;
+  }
   .headerlink {
     &:hover {
       border-bottom: 0;
