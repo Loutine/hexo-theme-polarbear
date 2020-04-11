@@ -29,6 +29,7 @@ menu:
 #   content: Add your html code in here. Example: <p>testing...</p>
 widget:
   Tags: true
+  Friends: true
   Categories: false
   Custom: false
 
@@ -36,6 +37,9 @@ widget_custom:
     title: Test
     content: <p>testing...</p>
 
+friend_list:
+    YihanCao: http://yihancao123.github.io
+    浸墨: /link/friend.jpg
 # ===========================================
 # Theme Settings
 # ===========================================
